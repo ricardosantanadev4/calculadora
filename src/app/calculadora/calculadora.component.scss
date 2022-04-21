@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    background-color: blueviolet;
+    height: 98vh;
+}
+
+.title{
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text{
+            width: 100%;
+        }
+        h1{
+            background-color: aliceblue;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    .app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .app-div1{
+            background-color: #808183;
+            width: 70%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .app-div2{
+                background-color: #B7B8B9;
+                width: 90%;
+                height: 90%;
+                display: grid;
+                grid-template-rows: 05% 20% auto;
+                .painel{
+                    background-color: #DDDEE0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .painel-div1{
+                        background-color: aliceblue;
+                        width: 90%;
+                        height: 84%;
+                    }
+                }
+                // colunas e linhas do teclado
+                .div-columns-and-lines{
+                    background-color: aquamarine;
+                    display: grid;
+                    grid-template-columns: 20% 20% 20% 20% auto;
+                    div{
+                        display: grid;
+                        grid-template-rows: 25% 25% 25% auto;
+                    }
+                }
+            }
+        }
+    }
